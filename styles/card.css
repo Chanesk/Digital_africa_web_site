@@ -1,20 +1,64 @@
 .prog_cards{
-    height: 500px;
+    height: max-content;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    align-content: center;
     background-color: var(--main-bg-color);
+    padding-top: 100px;
+    margin-bottom: 40px;
 }
 .cards{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 90%;
+    height: 90%;
+    margin-bottom: 50px;
 }
 .cards_item{
-    width: 25%;
+    width: 30%;
+    height: 350px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    border: solid 3px var(--orange);
+
+}
+.cards_item:first-of-type{
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.cards_item:nth-of-type(2){
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.cards_item:last-of-type{
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.cards_item:last-of-type img{
+    transform: rotateY(180deg);
+}
+.cards_item h2{
+    text-align: center;
 }
 .cards_item img{
-    width: 100%;
+    width: 50%;
     height: 90%;
+    position: relative;
+    top: 15px;
+}
+.prog_cards p{
+    text-align: center;
+    width: 90%;
+}
+.prog_cards .btn{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 30px;
 }
