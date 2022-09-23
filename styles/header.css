@@ -1,5 +1,6 @@
 .btn{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -14,7 +15,17 @@
     width: max-content;
     border-radius: 10px;
 }
+.btn_icone span{
+    width: 90%;
+}
+.btn_icone i{
+    width: 10%;
+}
 .btn_icone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
     gap: 10px;
 }
 header{
