@@ -1,19 +1,33 @@
 .timer{
 
-    /* display: flex;
-    justify-content: center; */
-        border: 2px solid var(--orange);
-    border-radius: 80px 0px 80px 0px;
-    height: 200px;
-    width: 800px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    background-color: #fff;
-
-
+    display: flex;
+    justify-content: center; 
+    
+    
     
 }
 
 .timer_content{
+    border: 2px solid var(--orange);
+    border-radius: 80px 0px 80px 0px;
+    height: 250px;
+    width: 800px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #fff;
 
+}
+
+.timer_content h3{
+    text-align: center;
+    padding: 24px 24px 0px 0px;
+    font-size: 32px;
+    font-family: sans-serif;
+
+}
+.timer_bar{
+    width: 180px; 
+    transform: rotate(-0.75turn);
+    margin-left: -80px; 
+    margin-bottom: -149px;  
 }
