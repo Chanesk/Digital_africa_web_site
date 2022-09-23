@@ -3,7 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+@font-face{
+    font-family: 'poppins';
+    font-style: normal;
+    src: url('/fonts/Poppins/Poppins-Black.ttf');
+}
 :root {
     --main-bg-color : #FFEAC5;
     --orange : #EF8242;
