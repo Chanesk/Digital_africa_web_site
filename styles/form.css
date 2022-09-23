@@ -35,3 +35,8 @@
     font-size: 1.8rem;
     margin-bottom: 20px;
 }
+.notif{
+    font-size: 1rem;
+    color: var(--violet);
+    display: none;
+}
