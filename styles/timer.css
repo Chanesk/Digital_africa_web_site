@@ -1,0 +1,19 @@
+.timer{
+
+    /* display: flex;
+    justify-content: center; */
+        border: 2px solid var(--orange);
+    border-radius: 80px 0px 80px 0px;
+    height: 200px;
+    width: 800px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: #fff;
+
+
+    
+}
+
+.timer_content{
+
+}
