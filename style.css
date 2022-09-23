@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     width: 100%;
-    height: 100%;
 }
 
 :root {
@@ -18,4 +17,5 @@
 main{
     font-family: "Poppins";
     background-color: var(--main-bg-color);
+    color: var(--text);
 }
