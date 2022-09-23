@@ -1,0 +1,20 @@
+.prog_cards{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+.cards_item{
+    width: 25%;
+}
+.cards_item img{
+    width: 100%;
+    height: 90%;
+}
