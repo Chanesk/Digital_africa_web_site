@@ -83,19 +83,20 @@
     </section>
     <section class="form">
         <h2>Décrivez votre concept en quelques lignes</h2>
-        <form action="">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="cc8620b3-3cbc-477e-8715-75313b833c9e">
             <div class="input_el">
-                <input type="text" placeholder="Noms*">
+                <input type="text" placeholder="Noms*" name="name">
             </div>
             <div class="input_el">
-                <input type="text" placeholder="Email*">
+                <input type="email" placeholder="Email*" name="email">
             </div>
             <div class="input_el">
                 <input type="text" placeholder="Nom de votre startup*">
             </div>
             <div class="textarea_el">
                 <label for="">Décrivez votre solution en quelques lignes*</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
             </div>
             <div class="file_el">
                 <label for="">Pièces jointes*</label>
