@@ -43,6 +43,7 @@ header nav{
     height: 100%;
 }
 .langs{
+    width: 150px;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -54,6 +55,7 @@ header nav{
     border-color: var(--violet);
     font-size: .8rem;
     cursor: pointer;
+    text-align: center;
 }
 .langs_btn.active{
     background-color: var(--violet);
