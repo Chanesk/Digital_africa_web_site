@@ -1,0 +1,31 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+footer p{
+    width: 60%;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 18px;
+    
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.socials div{
+    color: var(--violet);
+    width: 5%;
+}
+.facebook{
+    font-size: 32px;
+}
+.instagram{
+    font-size: 34px;
+    margin-left: -15px
+   
+}
