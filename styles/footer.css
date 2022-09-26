@@ -16,10 +16,12 @@ footer p{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    gap: 25px;
+    
 }
 .socials div{
     color: var(--violet);
-    width: 5%;
+    width: 8%;
 }
 .facebook{
     font-size: 32px;
