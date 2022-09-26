@@ -35,6 +35,28 @@
     font-size: 1.8rem;
     margin-bottom: 20px;
 }
+.file_el{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.file_el [type="file"]{
+    display: none;
+}
+.file_el .label_file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    background-color: var(--violet);
+    color: var(--main-bg-color);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 .notif{
     font-size: 1rem;
     color: var(--violet);
